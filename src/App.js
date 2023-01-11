@@ -9,7 +9,7 @@ function App() {
 
   sayHello("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
 
-  return <div className="App"></div>;
+  return <div className="App">Hello</div>;
 }
 
 export default App;
