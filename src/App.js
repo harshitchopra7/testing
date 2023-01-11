@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // Rest Operator
+  // used to store the rest of the remaining things
+  function sayHello(...names) {
+    console.log(`${names}`);
+  }
+
+  sayHello("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
+
+  return <div className="App"></div>;
 }
 
 export default App;
